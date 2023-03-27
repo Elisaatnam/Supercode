@@ -1,0 +1,69 @@
+h1::first-letter {
+    color: #00796B;
+    font-size: 3em;
+}
+
+h1:hover:first-letter {
+    color: #4FC3F7;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Icons before */
+
+li:first-of-type::before, li:nth-of-type(2)::before{
+    content: url(./png/check.png);
+}
+
+li:nth-of-type(3)::before, li:nth-of-type(4)::before {
+    content: url(./png/doing.png);
+}
+
+li:nth-of-type(5)::before, li:nth-of-type(6)::before {
+    content: url(./png/no.png);
+}
+
+/* Icons after */
+
+li:first-of-type::after {
+    content: url(./png/gym.png);
+}
+
+li:nth-of-type(2)::after {
+    content: url(./png/bill.png);
+}
+
+li:nth-of-type(3)::after {
+    content: url(./png/dance.png);
+}
+
+li:nth-of-type(4)::after {
+    content: url(./png/eat.png);
+}
+
+li:nth-of-type(5)::after {
+    content: url(./png/book.png)
+}
+
+li:nth-of-type(6)::after {
+    content: url(./png/organize.png)
+}
+
+/* text decoration & background color */
+
+li:first-of-type, li:nth-of-type(2) {
+    text-decoration: line-through;
+}
+
+li:nth-of-type(3), li:nth-of-type(4) {
+    background-color: #b0dbef;
+}
+
+li:nth-of-type(5), li:nth-of-type(6) {
+    text-decoration: underline;
+}
+
+

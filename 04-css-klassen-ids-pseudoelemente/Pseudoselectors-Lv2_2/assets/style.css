@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: Mont;
+    src: url(./Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rale;
+    src: url(./Raleway-Regular.ttf);
+}
+
+h3:hover {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+li:nth-of-type(1) {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4E342E;
+}
+
+li:nth-of-type(2) {
+    font-family: Mont, sans-serif;
+    color: #689F38;
+}
+
+li:nth-of-type(3) {
+    font-family: Rale;
+    color: #EF5350;
+}
+
+p:first-of-type {
+    color: #999;
+}
+
+p:not(.last) {
+    font-size: 26px;
+}
+
+p:nth-of-type(even) {
+    color: #0277bd;
+}
+
+button {
+    background-image: linear-gradient(to bottom right, rgb(63, 89, 233), purple);
+    padding: 15px 25px;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 25%;
+    border: 4px solid rgb(91, 91, 203);
+}
+
+button:hover {
+    color: black;
+    font-size: 25px;
+    width: 25%;
+    transition: ease 0.5s;
+}
+
+button:active {
+    background-image: linear-gradient(to bottom right, orange, rgb(63, 89, 233 ));
+    color: black;
+}

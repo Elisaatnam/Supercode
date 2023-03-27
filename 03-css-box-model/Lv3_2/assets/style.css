@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Fredie;
+    src: url(./FrederickatheGreat-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+header {
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    padding-bottom: 400px;
+    
+}
+
+
+h1, h2 {
+    font-family: Fredie;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+header h2 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+header p {
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+header a {
+    max-width: fit-content;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+/* header ende */
+
+/* main */
+main h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+main p {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+section {
+    max-width: fit-content;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border: 5px solid rgb(169, 169, 169);
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+footer {
+    background-color: rgb(59, 58, 58);
+    padding: 20px;
+}
+
+footer p {
+    display: inline-block;
+    color: white;
+    margin-right: 500px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px 20px;
+}

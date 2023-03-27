@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    border: 3px dashed black;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+p {
+    color: blueviolet;
+    border: 2px solid orange;
+    padding: 15px;
+}
+
+p::first-letter {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 0 20px grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+}
+
+ol {
+    padding: 15px 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 2px dotted green;
+}
+
+ol li {
+    border-bottom: 1px solid rgb(110, 239, 110);
+}
+
+h3 {
+    text-align: center;
+    border: 10px double rgb(128, 200, 57);
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 10px
+}
