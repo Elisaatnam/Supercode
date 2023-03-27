@@ -1,0 +1,16 @@
+div {
+    background-color: rgb(190, 190, 190);
+}
+
+ul {
+    background-color: grey;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+span {
+    color: crimson;
+}

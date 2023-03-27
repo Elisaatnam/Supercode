@@ -1,0 +1,31 @@
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+p {
+    color: rgb(57, 57, 57);
+    font-size: 20px;
+}
+
+li {
+    color: #777;
+    font-size: 20px;
+}
+
+li:first-of-type {
+    text-decoration: overline;
+}
+
+li:nth-of-type(2) {
+    text-decoration: line-through;
+    text-align: center;
+}
+
+li:last-of-type {
+    text-decoration: underline;
+    text-align: right;
+}
