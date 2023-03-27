@@ -1,0 +1,118 @@
+@font-face {
+    font-family: marvenpro;
+    src: url(./MavenPro-VariableFont_wght.ttf);
+    font-family: gildadisplay;
+    src: url(./GildaDisplay-Regular.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: #333;
+    height: 500px;
+    width: 1000px;
+    color: white;
+    margin-bottom: 130px;
+}
+
+.logo {
+    font-family: gildadisplay;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    margin-left: 15px;
+}
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+    display: block;
+    height: 25px;
+}
+
+article {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.creative-fresh {
+    font-family: gildadisplay;
+    height: 190px;
+    width: 210px;
+    background-image: linear-gradient(to bottom left,  #8507e1, #194894, #3dc8d5);
+    margin-left: 400px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.creative-fresh p {
+    font-size: 13px;
+}
+
+a:hover {
+    color: white;
+}
+
+.creative-fresh:hover {
+    background-image: linear-gradient(to bottom left,#3dc8d5, #194894, #8507e1);
+}
+
+.stuff-we-did article {
+    height: 110px;
+    width: 1000px;
+    background: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg") no-repeat top;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.stuff-we-did h2, .stuff-we-did p {
+    margin-left: 125px;
+}
+
+main p {
+    width: 400px;
+}
+
+img {
+    display: block;
+    width: 700px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+main {
+    width: 1000px;
+}
+
+main p {
+    margin-bottom: 150px;
+}
+
+.first-p {
+    margin-bottom: 30px;
+}
+
+section:not(.stuff-we-did, .creative-fresh) {
+    margin-left: 125px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section p:not(.stuff-we-did p, .creative-fresh p) {
+    text-transform: uppercase;
+}
