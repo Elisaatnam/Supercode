@@ -1,0 +1,54 @@
+@font-face {
+    font-family: roboto;
+    src: url(./Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(./Roboto-Bold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(./alone.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-size: 62.5%;
+}
+
+h2 {
+    font-size: 1.14.rem;
+    margin-bottom: 12vw;
+}
+
+p:first-of-type {
+    font-family: roboto-bold;
+    font-size: clamp(12rem, 25vw, 16.5rem);
+    color: rgba(205, 228, 249, 0.175);
+    margin-bottom: 2vh;
+}
+
+p:nth-of-type(2) {
+    color: aliceblue;
+    font-size: 3.4rem;
+    color: rgba(205, 228, 249, 0.651);
+}
+
+p:last-of-type {
+    font-size: 1.4rem;
+    color: rgba(205, 228, 249, 0.362);
+    margin-bottom: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(205, 228, 249, 0.261);
+    font-size: 1.2rem;
+}

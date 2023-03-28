@@ -1,0 +1,53 @@
+@font-face {
+    font-family: awesome;
+    src: url(./SpaceGrotesk-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: awesome, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(29, 56, 92, 0.313);
+    padding: 10px;
+    border-radius: 1.2rem;
+    margin-bottom: 20px;
+}
+
+main {
+    background: url(./hills.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2%;
+}
+
+article {
+    background-color: rgba(245, 245, 245, 0.576);
+    border-radius: 1.2rem;
+    padding: 2%;
+    text-align: center;
+    height: 80vh;
+    m;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 8vh;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 8vh;
+}
+
+p:first-of-type {
+    padding-top: 20px;
+}
