@@ -1,0 +1,40 @@
+@font-face {
+    font-family: cinzel;
+    src: url(./Cinzel-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: cinzel, sans-serif;
+    color: white;
+    font-size: 62.5%;
+}
+header {
+    height: 100vh;
+    background: url(./bball.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.navigation {
+    background-color: rgba(127, 79, 8, 0.556);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px 20px 15px 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+a {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 30px;
+}
