@@ -14,54 +14,94 @@ html {
     font-size: 65,5%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* nav */
 
 nav {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 4rem;
+}
+
+div {
     display: flex;
     align-items: center;
 }
 
-div {
-    margin-right: 3vw;
-}
-
-.right {
-    margin: auto;
-}
-
-h1 {
-    display: inline;
+ul {
+    padding: 0 2rem;
 }
 
 li {
     display: inline;
     list-style: none;
-    padding: 20px;
+    padding: 0 0.2rem;
 }
 
-a {
-    text-decoration: none;
+img {
+    margin: 0 1rem;
 }
 
-/* ENDE nav */
 
 /* main */
-main {
-    height: auto;
-    background-color: #d9e8e5;
-}
 
 section {
-    padding: 20vh;
+    padding: 8rem 0 8rem 8rem;
+    background-color: #D9E8E5;
+    min-height: 100vh;
 }
 
 h2 {
-    margin-bottom: 5vh;
+    margin-bottom: 2rem;
 }
 
 article {
     display: flex;
     flex-wrap: wrap;
-    gap: 1vh;
+    gap: 0.5rem;
 }
 
+div:not(.forever) {
+    width: 20rem;
+    height: 12rem;
+    
+}
+
+article div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+/* BG Images fuer die divs */
+article div:first-of-type {
+    background: url(./png/ring001.png) no-repeat center;
+    background-size: cover;
+}
+article div:nth-of-type(2) {
+    background: url(./png/ring002.png) no-repeat center;
+    background-size: cover;
+}
+article div:nth-of-type(3) {
+    background: url(./png/ring003.png) no-repeat center;
+    background-size: cover;
+}
+article div:nth-of-type(4) {
+    background: url(./png/ring004.png) no-repeat center;
+    background-size: cover;
+}
+article div:nth-of-type(5) {
+    background: url(./png/ring005.png) no-repeat center;
+    background-size: cover;
+}
+article div:nth-of-type(6) {
+    background: url(./png/ring006.png) no-repeat center;
+    background-size: cover;
+}
