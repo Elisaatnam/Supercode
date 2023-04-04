@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(153, 6, 6);
+}
+
+input {
+    width: 200px;
+    accent-color: mediumaquamarine;
+    padding: 4px;
+    margin-bottom: 4px;
+    border: 1px solid mediumaquamarine;
+}
+
+input[type="email"] {
+    width: 400px;
+    margin-bottom: 5px;
+    border: 1px solid mediumaquamarine;
+}
+
+select {
+    width: 400px;
+    margin-bottom: 5px;
+    border: 1px solid mediumaquamarine;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    margin-bottom: 5px;
+    border: 1px solid mediumaquamarine;
+}
+
+input[type="submit"] {
+    display: block;
+    background-color: mediumaquamarine;
+    color: azure;
+    width: 400px;
+}
+
+
+/* hier habe ich versucht die border-color zu aendern wenn d input aktiv ist */
+
+/* input:active {
+      border-color: ;
+      } */

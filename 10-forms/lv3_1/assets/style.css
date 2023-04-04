@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65.5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* ALLGEMEIN MAIN UND FORM */
+main {
+    padding: 5rem 0 0 30rem;
+}
+
+form {
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(244, 165, 96, 0.442);
+    border-radius: 10px;
+}
+
+
+/* ERSTE SECTION MIT BLAUER BACKGROUND-COLOR */
+section:first-of-type {
+    color: white;
+    background-color: rgb(22, 133, 218);
+    width: 45rem;
+    height: 7rem;
+    padding: 1.5rem;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+/* NAME, MAIL, PASSWORD DIVS */
+div:not(.test, .last) {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+h2 {
+    display: inline-block;
+    color: rgb(22, 133, 218);
+    margin: 0 0 0 20px;
+}
+
+.num {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(22, 133, 218);
+    height: 25px;
+    width: 25px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+label {
+    display: block;
+    /* margin-left: -22.5rem; */
+}
+
+/* input, textarea {
+    width: 30rem;
+} */
+
+.test {
+    margin-left: -3.5rem;
+}
+
+.bg {
+    background-color: rgba(244, 165, 96, 0.117);
+    height: 10rem;
+    padding: 15px;
+    margin: 0 0 15px 25px;
+}
+
+
+/* UNTERER TEIL MIT BUTTON UND TERMS */
+
+.last {
+    display: flex;
+}
+
+
+ .last input[type="submit"] {
+    width: 5rem;
+}
+
+.box {
+    text-align: right;
+}
+
+.box input {
+    width: 10px;
+}
+
+.box label {
+    /* display: inline; */
+    margin-left: -50px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Level 2_3</title>
+</head>
+<body>
+    <main>
+        <fieldset>
+            <legend>Register form</legend>
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Name">
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input id="surname" type="text" placeholder="Surname">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email">
+            </div>
+            <div>
+                <label >Gender</label>
+                <label for="gender1" class="test2">Male</label>
+                <input type="radio" id="gender1" name="gender" value="male">
+                <label for="gender2" class="test2">Female</label>
+                <input type="radio" id="gender2" name="gender" value="female">
+            </div>
+            <div>
+                <label for="pic">Picture</label>
+                <input type="file" id="pic">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select id="country">
+                    <option value="germany">Germany</option>
+                    <option value="spain">Spain</option>
+                    <option value="france">France</option>
+                </select>
+            </div>
+            <div>
+                <label for="lang">Prefered languages</label>
+                <select multiple="multiple" id="lang">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JS</option>
+                    <option>React</option>
+                    <option>Other</option>
+                </select>   
+            </div>
+            <div>
+                <label>Field of activity</label>
+                <input id="activity1" type="checkbox">
+                <label for="activity1" class="test">IT</label>
+                <input id="activity2" type="checkbox">
+                <label for="activity2" class="test">Design</label>
+                <input id="activity3" type="checkbox">
+                <label for="activity3" class="test">Other</label>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+                <button>Cancel</button>
+            </div>
+        </fieldset>
+    </main>
+</body>
+</html>

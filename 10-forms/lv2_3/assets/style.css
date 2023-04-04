@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset
+
+div {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    align-content: baseline;
+}
+label {
+    margin: 0 5px;
+}
+
+label:not(.test, .test2){
+    min-width: 12rem;
+}
+
+.test {
+    max-width: 4rem;
+}
+
+.test2 {
+    max-width: 3rem;
+}
+
+
+div:last-of-type {
+    margin-left: 5px;
+}
+
+button {
+    margin: 0 0 0 5px;
+}
