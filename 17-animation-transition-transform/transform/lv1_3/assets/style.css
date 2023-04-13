@@ -1,0 +1,83 @@
+img {
+    height: 60%;
+    width: auto;
+    padding: 0 0 0 20px;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50vw;
+    height: auto;
+    perspective: 1000px;
+}
+
+section {
+    height: 20vh;
+    padding: 0 20px 0 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid rgba(77, 76, 76, 0.712);
+   /*  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    
+}
+
+section:nth-of-type(1) {
+    background-color: rgba(77, 188, 229, 0.566);
+    z-index: 3;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg);
+    transform: rotateY(-30deg);
+    margin-bottom: -15px;
+    transition: transform 1s ease-out;
+}
+
+section:nth-of-type(2) {
+    background-color: rgba(223, 214, 133, 0.449);
+    z-index: 2;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg);
+    transform: rotateY(-30deg);
+    margin-bottom: -15px;
+    transition: transform 1s ease-out;
+}
+
+section:nth-of-type(3) {
+    background-color: rgba(219, 160, 225, 0.523);
+    z-index: 1;
+    transform-style: preserve-3d;
+    transform: rotateX(20deg);
+    transform: rotateY(-30deg);
+    transition: transform 1s ease-out;
+}
+
+section:nth-of-type(1):hover {
+    transform: rotateX(10deg);
+    transform: rotateY(-20deg);
+    background-color:rgb(77, 188, 229);
+    z-index: 1000;
+}
+
+section:nth-of-type(2):hover {
+    transform: rotateX(10deg);
+    transform: rotateY(-20deg);
+    z-index: 1000;
+    background-color: rgb(223, 214, 133);
+    
+    
+}
+
+section:nth-of-type(3):hover {
+    transform: rotateX(10deg);
+    transform: rotateY(-20deg);
+    z-index: 1000;
+    background-color: rgb(219, 160, 225);
+}
+

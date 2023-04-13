@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Trick17 wenn ich ein Horizontalen scroll balken habe */
+    border: 5px solid red;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  section article {
+    text-align: center;
+  }
+  
+  section article a {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  
+  section img {
+    display: none;
+  }
+  
+  section article h1,
+  section article p {
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    width: 1000px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    section article,
+    section img {
+      max-width: 45vw;
+    }
+    section img {
+      display: inline;
+    }
+  }

@@ -1,0 +1,66 @@
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+div {
+    color: white;
+    font-size: 35px;
+    background-color: rgb(30, 151, 30);
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    place-self: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translate {
+    transition: transform 1s ease-out;
+}
+
+.translate:hover {
+    transform: translate(30px, 30px);
+}
+
+.translateX {
+    transition: transform 1s ease-out;
+}
+
+.translateX:hover {
+    transform: translateX(-30px);
+}
+
+.translateY {
+    transition: transform 1s ease-out;
+}
+
+.translateY:hover {
+    transform: translateY(30px);
+}
+
+.rotate {
+    transition: transform 1s ease-out;
+}
+
+.rotate:hover {
+    transform: rotate(45deg);
+}
+
+.scale {
+    transition: transform 1s ease-out;
+}
+
+.scale:hover {
+    transform: scale(1.2, 1.4);
+}
+
+.skew {
+    transition: transform 1s ease-out;
+}
+
+.skew:hover {
+    transform: skew(15deg, 20deg);
+}

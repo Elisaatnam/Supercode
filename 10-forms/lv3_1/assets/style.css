@@ -89,22 +89,31 @@ label {
 
 .last {
     display: flex;
-}
-
-
- .last input[type="submit"] {
+  }
+  
+  
+  .last input[type="submit"] {
     width: 5rem;
-}
-
-.box {
+  }
+  
+  .box {
     text-align: right;
-}
-
-.box input {
+  }
+  
+  .box input {
     width: 10px;
-}
-
-.box label {
+  }
+  
+  .box label {
     /* display: inline; */
     margin-left: -50px;
-}
+  }
+  .last .box input{
+    margin-left: 50%;
+  }
+  .last .box label{
+    margin-top: -3%;
+  }
+  .last {
+    margin-bottom: 4%;
+  }
