@@ -1,0 +1,10 @@
+div {
+    height: 7.5vh;
+    width: 5vw;
+    background-color: red;
+    transition: width 2s ease-out;
+}
+
+div:hover {
+    width: 98vw;
+}

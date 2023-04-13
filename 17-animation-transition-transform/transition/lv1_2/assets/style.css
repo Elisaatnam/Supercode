@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    height: 15vh;
+    background-color: rgb(208, 207, 207);
+}
+
+div {
+    height: 49%;
+    width: 5vw;
+}
+
+.red {
+    background-color: red;
+    margin-bottom: 2px;
+    transition: transform 4s ease-in;
+}
+
+.green {
+    background-color: green;
+    transition: transform 3s 1s ease-in;
+}
+
+section:hover div{
+    transform: translateX(95vw);
+}
