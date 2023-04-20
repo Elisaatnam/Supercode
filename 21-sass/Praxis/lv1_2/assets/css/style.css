@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 6rem;
+}
+header h1 {
+  font-size: 1rem;
+}
+header h2 {
+  font-size: 1rem;
+}
+
+nav .nav_links {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 255, 0.678);
+}
+nav .nav_links a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .section_text {
+  margin: 1rem;
+}
+main .section_text h3 {
+  text-align: center;
+}
+main .section_images {
+  margin: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+main .section_images img {
+  height: 12rem;
+  width: 18rem;
+  margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.aside {
+  display: flex;
+  flex-flow: column no-wrap;
+  justify-content: center;
+  margin: 1rem;
+}
+.aside .first_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.aside .second_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.aside .third_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.aside .fourth_aside {
+  border: 0.2rem solid rgba(0, 0, 255, 0.678);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  height: 5rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 255, 0.678);
+}
+footer .footer_links {
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+footer .footer_links a {
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+  main .section_text {
+    width: 70%;
+  }
+  main .section_images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .aside {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+  .aside .first_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+  .aside .second_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+  .aside .third_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+  .aside .fourth_aside {
+    width: 45%;
+    margin: 0.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

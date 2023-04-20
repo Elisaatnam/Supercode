@@ -1,0 +1,48 @@
+@import "variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i {
+    transform: scale(4);
+    padding: $padding;
+    &:nth-of-type(1){
+        color: $tw;
+    }
+    &:nth-of-type(2){
+        color: $be;
+    }
+    &:nth-of-type(3){
+        color: $fb;
+    }
+    &:nth-of-type(4){
+        color: $vi;
+    }
+    &:nth-of-type(5){
+        color: $snap;
+    }
+    &:nth-of-type(6){
+        color: $abnb;
+    }
+    &:nth-of-type(7){
+        color: $amzn;
+    }
+    &:nth-of-type(8){
+        color: $andrd;
+    }
+    &:nth-of-type(9){
+        color: $stack;
+    }
+    &:nth-of-type(10){
+        color: $ub;
+    }
+    &:nth-of-type(11){
+        color: $git;
+    }
+    &:nth-of-type(12){
+        color: $js;
+    }
+}

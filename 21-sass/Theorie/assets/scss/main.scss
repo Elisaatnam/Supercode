@@ -1,0 +1,92 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    padding: $padding30;
+    color: orange;
+}
+
+/* NESTING */
+/* HEADER */
+header {
+    color: $firstColor;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+        font-size: 5rem;
+    }
+    nav {
+        background-color: $secondColor;
+        a {
+            margin-left: 20px;
+            text-decoration: none;
+            &:nth-of-type(2):hover {
+                color: white;
+            }
+            &:nth-of-type(3):hover {
+                color: green;
+            }
+        }
+    }
+}
+
+/* MAIN */
+.imageGallery {
+    @include nameDesMixin;
+    gap: $gap;
+    figure {
+        img {
+            width: 100%;
+        }
+        figcaption {
+            background-color: deepskyblue;
+            h2 {
+                @include textStyle(2rem, purple, deeppink);
+                &:hover {
+                    color: yellow;
+                    cursor: pointer;
+                }
+            }
+            p {
+                @include textStyle(1rem, black, yellow)
+            }
+        }
+    }
+}
+
+.extend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+        color: #800FFF;
+        font-size: 5rem;
+    }
+    p {
+        @extend .imageGallery;
+    }
+}
+
+/* @mixin bigCircle{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: darkblue;
+} */
+
+@mixin circle2($size, $bgColor){
+    width: $size;
+    height: $size;
+    background-color: $bgColor;
+    border-radius: 50%;
+
+}
+
+.circle {
+    @include circle2(30vw, darkblue);
+}

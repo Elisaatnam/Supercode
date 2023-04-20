@@ -1,0 +1,24 @@
+@import "mixin.scss";
+
+@include anmtn; 
+
+.container {
+    .ball1 {
+        @include ball;
+        @include margin;
+        @include ballClr(red);
+        animation: move .5s linear infinite alternate-reverse;
+    }
+    .ball2 {
+        @include ball;
+        @include margin;
+        @include ballClr(blue);
+        animation: move 1s linear infinite alternate-reverse;
+    }
+    .ball3 {
+        @include ball;
+        @include margin;
+        @include ballClr(yellow);
+        animation: move 1.5s linear infinite alternate-reverse;
+    }
+}

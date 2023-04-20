@@ -1,0 +1,114 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    @include height (6rem);
+    h1 {
+        font-size: $margin;
+    }
+    h2 {
+        font-size: $margin;
+    }
+}
+
+nav {
+    .nav_links {
+        margin-top: $margin;
+        @include flex (flex, row no-wrap, center);
+        margin-bottom: $margin;
+        background-color: $bgColor;
+        a {
+            padding: $margin;
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+main {
+    @include flex (flex, column nowrap, center);
+    align-items: $c;
+    .section_text {
+        margin: $margin;
+        h3 {
+            text-align: $c;
+        }
+    }
+    .section_images {
+        margin: $margin;
+        @include flex (flex, column nowrap, center);
+        align-items: $c;
+        img {
+            @include height (12rem);
+            width: 18rem;
+            margin: 0 0.5rem 1rem 0.5rem
+        }
+    }
+}
+.aside {
+    @include flex (flex, column no-wrap, center);
+    margin: $margin;
+    .first_aside {
+        @include aside;
+    }
+    .second_aside {
+        @include aside;
+    }
+    .third_aside {
+        @include aside;
+    }
+    .fourth_aside {
+        @include aside;
+    }
+}
+
+footer {
+    @include height (5rem);
+    margin-top: $margin;
+    background-color: $bgColor;
+    .footer_links {
+        @include flex (flex, row no-wrap, center);
+        margin-bottom: $margin;
+        a {
+            padding: $margin;
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        .section_text {
+            width: 70%;
+        }
+        .section_images {
+            @include flex (flex, row wrap, flex-start);
+        }
+    }
+
+    .aside {
+        @include flex (flex, row wrap, flex-start);
+        .first_aside {
+            @include asideDesk;
+        }
+        .second_aside {
+            @include asideDesk;
+        }
+        .third_aside {
+            @include asideDesk;
+        }
+        .fourth_aside {
+            @include asideDesk;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@mixin ball {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: .5px solid black;
+}
+
+@mixin ballClr($color){
+    background-color: $color;
+}
+
+@mixin anmtn {
+    @keyframes move {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(500px);
+        }
+    }
+}
+
+@mixin margin {
+    margin-bottom: 2vh;
+}

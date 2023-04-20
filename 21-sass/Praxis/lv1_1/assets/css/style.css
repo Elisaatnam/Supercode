@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  transform: scale(4);
+  padding: 2vw;
+}
+i:nth-of-type(1) {
+  color: #55acee;
+}
+i:nth-of-type(2) {
+  color: #1769ff;
+}
+i:nth-of-type(3) {
+  color: #1877f2;
+}
+i:nth-of-type(4) {
+  color: #1ab7ea;
+}
+i:nth-of-type(5) {
+  color: #fffc00;
+}
+i:nth-of-type(6) {
+  color: #fd5c63;
+}
+i:nth-of-type(7) {
+  color: #ff9900;
+}
+i:nth-of-type(8) {
+  color: #a4c639;
+}
+i:nth-of-type(9) {
+  color: #f48024;
+}
+i:nth-of-type(10) {
+  color: #dd4814;
+}
+i:nth-of-type(11) {
+  color: #4078c0;
+}
+i:nth-of-type(12) {
+  color: #f7df1e;
+}
+
+/*# sourceMappingURL=style.css.map */

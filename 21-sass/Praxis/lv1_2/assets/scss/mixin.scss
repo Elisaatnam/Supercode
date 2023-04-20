@@ -1,0 +1,21 @@
+
+@mixin height($height){
+    height: $height;
+}
+
+@mixin aside {
+    border: 0.2rem solid rgba(0, 0, 255, 0.678);    
+	padding: 1rem;
+	margin-bottom: $margin;
+}
+
+@mixin asideDesk {
+    width: 45%;
+    margin: 0.5rem;
+}
+
+@mixin flex($display, $fflow, $jc){
+    display: $display;
+    flex-flow: $fflow;
+    justify-content: $jc;
+}
