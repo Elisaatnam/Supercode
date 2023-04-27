@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>HEY! CHANGE MY COLOR!</h1>
+		<form onsubmit="return false">
+			<label for="red">RED</label>
+			<input
+				onchange="changeBackground()"
+				;
+				type="range"
+				id="red"
+				name="red"
+				min="0"
+				max="255"
+				value="0"
+				step="1"
+			/>
+			<label for="green">GREEN</label>
+			<input
+				onchange="changeBackground()"
+				;
+				type="range"
+				id="green"
+				name="green"
+				min="0"
+				max="255"
+				value="0"
+				step="1"
+			/>
+			<label for="blue">BLUE</label>
+			<input
+				onchange="changeBackground()"
+				;
+				type="range"
+				id="blue"
+				name="blue"
+				min="0"
+				max="255"
+				value="0"
+				step="1"
+			/>
+		</form>
+		<p class="output"></p>
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+	</body>
+</html>
