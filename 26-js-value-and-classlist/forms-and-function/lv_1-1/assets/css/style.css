@@ -1,0 +1,17 @@
+form {
+	width: 25vw;
+	text-align: center;
+}
+
+label {
+	display: block;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	display: inline-block;
+	text-align: center;
+}
