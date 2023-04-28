@@ -1,0 +1,35 @@
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+main {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form {
+	width: 40vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.green {
+	background-color: rgb(55, 165, 55);
+}
+
+.yellow {
+	background-color: rgb(203, 203, 37);
+}
+
+.orange {
+	background-color: rgb(255, 89, 0);
+}
+
+.green,
+.yellow,
+.orange {
+	transition: background-color 1s ease-in-out;
+}

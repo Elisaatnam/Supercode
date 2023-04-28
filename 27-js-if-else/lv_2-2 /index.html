@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>LV 2-2</title>
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+	<body>
+		<main>
+			<form>
+				<label for="range">AQI (Air Quality Index): <span></span></label>
+				<input
+					onchange="checkAirQuality()"
+					type="range"
+					id="range"
+					min="0"
+					max="150"
+					value="0"
+				/>
+				<h2 class="concern">Level of health concern:</h2>
+				<h2 class="effect">Level of health effect:</h2>
+			</form>
+		</main>
+
+		<script type="text/javascript" src="./assets/js/main.js"></script>
+	</body>
+</html>
