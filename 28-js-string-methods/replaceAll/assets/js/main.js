@@ -29,7 +29,7 @@ function highlight() {
 	let input = document.querySelector("#search-input").value;
 
 	//wenn im article.innerText der input vorkommt, dann wird jeder input durch `<span>${input}</span>` ersetzt, d.h. jeder input bekommt ein <span>-Tag verpasst, durch css wird die bg-color des span tags gelb
-	if (article.innerText.includes(input) == true) {
+	if (article.innerHTML.includes(input) == true) {
 		article.innerHTML = article.innerHTML.replaceAll(
 			input,
 			`<span>${input}</span>`,
