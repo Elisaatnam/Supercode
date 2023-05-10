@@ -85,7 +85,7 @@ const output2 = document.querySelector(".output2");
 //nested loop
 //zuerst der Loop fuer die length des Arrays in diesem Falle 5 durchlaeufe = also fuer jede Zahl des Arrays ein Loop
 for (let i = 0; i < numArr.length; i++) {
-	//nun wird fuer jede Zahl des Arrays geschaut, durch welche Zahl sie teilbar ist (j = 2 weil nicht geschaut werden soll ob die Zahl  durch 1 teilbar ist & j < numArr[i], weil nicht geschaut werden soll ob die Zahl  durch sich selbst teilbar ist)
+	//nun wird  in dem eingenisteten Loop fuer jede Zahl des Arrays geschaut, durch welche Zahl sie teilbar ist (j = 2 weil nicht geschaut werden soll ob die Zahl  durch 1 teilbar ist & j < numArr[i], weil nicht geschaut werden soll ob die Zahl  durch sich selbst teilbar ist)
 	for (let j = 2; j < numArr[i]; j++) {
 		//console.log(numArr[i]);
 		//console.log(j);
