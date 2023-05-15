@@ -41,4 +41,7 @@ changeBgBtn.addEventListener("click", () => {
 
 	//nun die bg color aendern
 	chnageBgSection.style.backgroundColor = color;
+
+	// Hintergrundfarbe des ausgewählten Dropdown-Menüs ändern
+	selectedColor2.style.backgroundColor = color;
 });
