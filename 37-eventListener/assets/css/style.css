@@ -1,0 +1,73 @@
+html {
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 3vw;
+}
+
+h2 {
+	font-size: 1.8vw;
+	text-decoration: underline;
+}
+
+button {
+	font-size: 1.2vw;
+	border-radius: 10px;
+}
+/* Level 1_5 Click counter */
+header,
+main,
+.klickzaehler,
+.change,
+.remove,
+.change-bg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.klickzaehler button {
+	width: 10vw;
+	padding: 5%;
+	margin-bottom: 5vh;
+}
+
+/* Level 1_6 Events addEventListener("change")
+ */
+select {
+	padding: 2.5%;
+	border: none;
+	border-bottom: 1px solid #e4e4e4;
+	font-size: 1.5vw;
+	outline: 0;
+}
+
+/* Level 1_9 Remove List Element */
+.remove {
+	margin-bottom: 5vh;
+}
+.remove div {
+	display: flex;
+}
+.remove select {
+	margin-right: 20px;
+}
+
+.remove button {
+	width: 20vw;
+}
+
+/* 2_4: DOM Background Colors */
+.change-bg {
+	height: 35vh;
+	width: 100vw;
+}
+.change-bg div {
+	display: flex;
+}
+
+.change-bg select {
+	margin-right: 20px;
+}
