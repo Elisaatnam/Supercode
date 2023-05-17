@@ -1,27 +1,6 @@
-@font-face {
-  font-family: ;
-  src: url();
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
-:root {
-  --var1: ;
-  --var2: ;
-  --var3: ;
-}
-
-/* GLOBAL SETTINGS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* HEADER  */
