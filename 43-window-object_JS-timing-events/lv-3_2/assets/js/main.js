@@ -1,6 +1,8 @@
+//! GLOBAL SCOPES
 const timeOutput = document.querySelector("#time");
 let intervalVar;
 
+//! startMinCountdown Funktion
 const startMinCountdown = () => {
 	event.preventDefault();
 
@@ -30,10 +32,12 @@ const updateTimeOutput = (minutes, seconds) => {
 	timeOutput.textContent = `${formattedMinutes}:${formattedSeconds}`;
 };
 
+//! pauseMinCountdown Funktion
 const pauseMinCountdown = () => {
 	clearInterval(intervalVar);
 };
 
+//! restartMinCountdown Funktion
 const restartMinCountdown = () => {
 	event.preventDefault();
 	//hole mir den aktuellen wert aus dem Timeoutput ist ein String!
@@ -62,4 +66,11 @@ const restartMinCountdown = () => {
 
 		updateTimeOutput(minutes, seconds);
 	}, 1000);
+};
+
+//! reset Funktion
+const reset = () => {
+	clearInterval(intervalVar);
+	timeOutput.textContent = "00:00";
+	document.querySelector("#minutes").value = "";
 };
