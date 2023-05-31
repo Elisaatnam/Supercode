@@ -1,0 +1,63 @@
+.recipes {
+	background-color: #ccc9c9;
+	padding: 0 5vw;
+	text-align: left;
+}
+
+.recipes .wrapper {
+	background-color: white;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1vw;
+}
+
+.recipes article {
+	width: 100%;
+	background-color: white;
+	padding: 0 0.5vw;
+}
+
+.imgDiv {
+	width: 100%;
+	height: 30vh;
+	margin-bottom: 2vh;
+}
+
+.wrapper article:nth-of-type(1) .imgDiv {
+	background: url(../assets/img/salat.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(2) .imgDiv {
+	background: url(../assets/img/pizza.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(3) .imgDiv {
+	background: url(../assets/img/frikadellen.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(4) .imgDiv {
+	background: url(../assets/img/glass.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(5) .imgDiv {
+	background: url(../assets/img/pizza2.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(6) .imgDiv {
+	background: url(../assets/img/scampi.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(7) .imgDiv {
+	background: url(../assets/img/spagetthi.jpeg) no-repeat center;
+	background-size: cover;
+}
+.wrapper article:nth-of-type(8) .imgDiv {
+	background: url(../assets/img/teller.jpeg) no-repeat center;
+	background-size: cover;
+}
+
+.price {
+	font-size: 1.4vw;
+	font-weight: 700;
+	color: teal;
+}
