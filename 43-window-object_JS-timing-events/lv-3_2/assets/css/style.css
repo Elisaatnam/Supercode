@@ -1,18 +1,81 @@
+@font-face {
+	font-family: Digital;
+	src: url(../fonts/digital-7.ttf);
+}
+
+@font-face {
+	font-family: Magica;
+	src: url(../fonts/Magica-BWgl8.ttf);
+}
+
+:root {
+	--light-cyan: #e0fbfcff;
+	--light-blue: #c2dfe3ff;
+	--cadet-gray: #9db4c0ff;
+	--paynes-gray: #5c6b73ff;
+	--gunmetal: #253237ff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Magica;
+	background-color: var(--light-blue);
+}
+
 #minuteCountdownBereich {
-	background-color: #dcffcc;
-	color: #baabda;
-	display: inline-block;
-	padding: 10px;
-	font-family: Geneva;
-	font-weight: bold;
+	width: 98vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	font-size: 6vw;
+	font-weight: 600;
+	margin-bottom: 2vh;
+}
+
+#time {
+	font-family: Digital;
+	font-size: 20vw;
+	width: 50vw;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+		rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+		rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+		rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+		rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+	border-radius: 20px;
+	padding: 1vh;
+	margin-bottom: 2vh;
 }
 
 input {
-	border-radius: 5px;
-	background: #9fdfcd;
+	display: block;
+	border-radius: 15px;
+	background: var(--gunmetal);
+	color: var(--light-cyan);
+	width: 5vw;
+	font-size: 3vw;
+	text-align: center;
+	padding: 0.5vh;
 }
 
 button {
-	border-radius: 5px;
-	background: #d79abc;
+	display: block;
+	border-radius: 15px;
+	background: var(--cadet-gray);
+	width: 20vw;
+	font-size: 2.5vw;
+	transition: 0.5s ease-out;
+}
+
+button:hover {
+	background-color: var(--paynes-gray);
+	color: var(--light-cyan);
+	box-shadow: 5px 5px 5px var(--paynes-gray);
 }

@@ -4,14 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>NEW TITLE</title>
+		<title>Timer</title>
 		<link rel="stylesheet" href="./assets/css/style.css" />
 	</head>
 	<body>
 		<div id="minuteCountdownBereich">
-			<p>Minuten Countdown:</p>
+			<p>Minute Countdown:</p>
 			<div id="time">00:00</div>
-			<input id="minutes" type="text" placeholder=" Minuten übrig..." />
+			<input id="minutes" type="number" min="1" step="1" value="5" />
 			<br />
 			<button onclick="startMinCountdown()">Start Countdown</button>
 			<br />
@@ -23,5 +23,8 @@
 		</div>
 
 		<script type="text/javascript" src="./assets/js/main.js"></script>
+		<script>
+			let myHover3D = new Hover3D(".card");
+		</script>
 	</body>
 </html>
