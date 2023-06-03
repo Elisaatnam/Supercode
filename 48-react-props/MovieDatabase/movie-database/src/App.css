@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 4vw;
+	font-weight: 900;
+	text-align: center;
+}
+
+section {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2vh;
+	padding: 2vh 0 2vh 5vh;
+}
+
+article {
+	height: 30vh;
+	width: 85%;
+	padding: 1vw;
+	border-radius: 10px;
+	background-color: rgb(76, 76, 76);
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	transition: transform 0.5s ease-in-out;
+}
+
+article:hover {
+	transform: scale(1.025);
+}
+
+p {
+	font-size: 1.2vw;
+	margin-bottom: 0.75vh;
+}
+
+p:first-of-type {
+	font-size: 1.5vw;
+	font-weight: 900;
+	margin-bottom: 2vh;
+}
+
+.genre {
+	font-style: italic;
+}
