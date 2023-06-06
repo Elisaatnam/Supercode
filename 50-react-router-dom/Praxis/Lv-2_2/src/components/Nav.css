@@ -1,0 +1,17 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1vw;
+}
+
+nav a,
+nav div p {
+	padding: 1vw;
+	margin-left: 0.5vw;
+	font-size: 2vw;
+	text-decoration: none;
+	background-color: darkmagenta;
+	color: white;
+	border-radius: 20px;
+}

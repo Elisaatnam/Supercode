@@ -1,0 +1,18 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	width: 12vw;
+	padding: 1vh;
+	margin-right: 1vw;
+	font-size: 1.8vw;
+	font-weight: 800;
+	color: white;
+	text-shadow: 0.25px 0.25px black;
+	background-color: turquoise;
+	border-radius: 15px;
+}
