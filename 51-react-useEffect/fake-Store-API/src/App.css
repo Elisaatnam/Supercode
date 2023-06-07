@@ -1,0 +1,12 @@
+img {
+	height: 30vh;
+	width: fit-content;
+}
+
+section {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 15px;
+	width: 100vw;
+	align-items: center;
+}
