@@ -1,0 +1,27 @@
+header {
+	height: 35vh;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.links {
+	width: 20vw;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav svg {
+	height: 5vh;
+	cursor: pointer;
+	fill: rgb(72, 72, 72);
+}
